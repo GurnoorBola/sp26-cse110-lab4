@@ -35,3 +35,8 @@
     F. It outputs `true` since Boolean(2) resolves to the boolean value `true` since any non zero integer value will be truthy. Since true is equal to true the operator returns true.
 
 15. Using the `==` operator will cause type conversions but using `===` will not convert types and will return false if the operands are of a different type form each other. 
+
+17. modifyArray(\[1,2,3\], doSomething) returns a new array with the values \[2, 4, 6\]. The function iterates throught the array that is passed in as an argument to modifyArray. Then for every element in the array it applies the callback function which is doSomething. doSomething returns 2 times the value that was passed to it. Finally this value is pushed to a new array.
+
+19. It outputs 1 3 4 2.
+
